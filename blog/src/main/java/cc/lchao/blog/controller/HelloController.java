@@ -14,4 +14,9 @@ public class HelloController {
         return "Hello World! Spring-Boot!";
     }
 
+    @GetMapping(value = "/say")
+    public String say(){
+        return "Say Hello World!";
+    }
+
 }
